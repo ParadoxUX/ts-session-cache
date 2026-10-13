@@ -1,0 +1,23 @@
+# deps
+node_modules/
+
+# build output (пересобирается через `npm run build`)
+dist/
+
+# logs
+*.log
+npm-debug.log*
+
+# tarball от npm pack
+*.tgz
+
+# env / секреты
+.env
+.env.local
+.npmrc
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
